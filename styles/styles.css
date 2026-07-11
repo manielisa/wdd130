@@ -3,12 +3,13 @@ main {
 }
 
 aside {
-    width: 70%;
-    margin: 10px;
-    border: 20px;
-    padding: 2%;
-    background-color: aqua;
-    color: black;
+    width: 70rem;
+    margin: 10rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
 }
 
 aside img {
