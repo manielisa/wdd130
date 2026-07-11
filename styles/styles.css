@@ -32,3 +32,18 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+h1 {
+    color: black;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 1em;
+}
+
+nav a {
+    color: black;
+    padding: 2em;
+    display: block;
+}
