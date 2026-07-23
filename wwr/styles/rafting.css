@@ -13,11 +13,6 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
-
 header,
 main,
 footer {
@@ -42,6 +37,8 @@ header {
     align-items: center;
     background-color: var(--primary-color);
     padding: 10px 20px;
+    color: var(--accent2-color);
+
 }
 
 header img {
