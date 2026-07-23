@@ -13,6 +13,11 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
 header,
 main,
 footer {
