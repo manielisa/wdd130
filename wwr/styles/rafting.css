@@ -59,6 +59,10 @@ nav a {
     position: relative;
 }
 
+p {
+    color: var(--secondary-color);
+}
+
 .hero img {
     width: 100%;
 }
