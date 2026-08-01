@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this part updates the page purpose -->
+    <title>Contact Us | Manie's Rafting Camp</title>
+    <meta name="description"
+      content="Contact Manie's Rafting Camp for inquiries, reservations, and adventure information.">
+    <meta name="author" content="Mesumekyere Emmanuel">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <!-- same header -->
+    <header>
+        <img src="images/crossedoars.jpeg" alt="Rafting Company Logo">
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- company info -->
+        <section class="company-info">
+            <h1>Manie's Rafting Camp</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
+        </section>
+
+        <!-- map + form -->
+        <section class="contact-layout">
+
+            <!-- google map (NO inline style) -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps?q=Kolob,California&output=embed"
+                  loading="lazy">
+                </iframe>
+            </div>
+
+            <!-- form -->
+            <div class="form-section">
+                <form>
+
+                    <!-- name -->
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <!-- email -->
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <!-- purpose -->
+                    <p>Purpose of Message</p>
+
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="general">General Inquiry</label><br>
+
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label><br>
+
+                    <input type="radio" id="website" name="purpose" value="website">
+                    <label for="website">Website Suggestion</label><br><br>
+
+                    <!-- message -->
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <!-- checkbox -->
+                    <br>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+                    <br><br>
+
+                    <!-- submit -->
+                    <button type="submit" class="submit-btn">Get in Touch!</button>
+
+                </form>
+            </div>
+
+        </section>
+
+        <!-- employees -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employee-grid">
+
+                <figure>
+                    <img src="images/employee1.jpg" alt="River Guide">
+                    <figcaption>Kwame Mensah – Lead River Guide</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="Safety Officer">
+                    <figcaption>Ama Boateng – Safety Officer</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Customer Support">
+                    <figcaption>Kofi Asare – Customer Support</figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- same footer -->
+    <footer>
+        <p>©️ 2026 | Manie's Rafting Camp | Mesumekyere Emmanuel</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
